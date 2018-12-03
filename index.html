@@ -1,13 +1,318 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Agung Senjaya</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<!--favicon-->
+    <link rel="shortcut icon" type="image/png" href="http://themehoster.com/rp/html/rexpo/demo/assets/images/favicon.png" />
+    <!--bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="css/app.min.css">
+    <!--owl carousel css-->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <!--animated headline css-->
+    <link rel="stylesheet" type="text/css" href="css/animated-headline.css">
+    <!--icofont css-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--animate css-->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!--main css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--responsive css-->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>tutorial</p>
+	<header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!--logo-->
+                    <a class="navbar-brand" href="index.html">
+                      <img src="img/logo.svg" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="icofont icofont-navigation-menu"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ml-auto text-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="" data-scroll-nav="0">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-scroll-nav="1">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-scroll-nav="4">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-scroll-nav="3">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-scroll-nav="6">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--end header-->
+    <!--start home area-->
+    <section id="home-area" data-scroll-index="0">
+        <div class="container">
+            <div class="row">
+                <!--start home image-->
+                <div class="col-md-6">
+                    <div class="home-img d-table text-center">
+                        <div class="d-table-cell align-middle">
+                            <img src="img/agung-senjaya.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--end home image-->
+                <!--start home content-->
+                <div class="col-md-6">
+                    <div class="home-content d-table">
+                        <div class="d-table-cell align-middle">
+                            <h5>Hello, I'm Agung Senjaya</h5>
+                            <h1>I'm Junior Full Stack Developer</h1>
+                            <p>I'm high experienced and well skilled Programming & Graphic Design.</p>
+                            <ul>
+                                <li><a class="" href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="" href=""><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="" href=""><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="" href=""><i class="fa fa-github"></i></a></li>
+                            </ul>
+                            <div class="home-btn">
+                                <a href="#about-area">Download Cv</a><span class="text-white mx-2 font-weight-bold">Or</span>
+                                <a href="#about-area">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end home content-->
+            </div>
+        </div>
+    </section>
+    <!--end home area-->	
+    <section id="about-area" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <!--start about content-->
+                <div class="col-md-5">
+                    <div class="about-content">
+                        <h2>About Me</h2>
+                        <h5>Hello, I'm Junior Full Stack Developer</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+                        <ul>
+                            <li><span><i class="icofont-email"></i> Email:</span> agungsenjaya813@gmail.com</li>
+                            <li><span><i class="icofont-phone"></i> Phone:</span> + 62 857 5979 4605</li>
+                        </ul>
+                        <a class="active" href="#">Download CV</a><a href="#contact-area">Contact Me</a>
+                    </div>
+                </div>
+                <!--end about content-->
+                <div class="col-md-7">
+                    <!--start skill circle-->
+                    <div class="skill row">
+                        <div class="col-md-4 skill-single text-center">
+                            <div class="circle" id="circle-1"><canvas width="100" height="100"></canvas>
+                                <span>70%</span>
+                            </div>
+                            <h6>Grapich Design</h6>
+                        </div>
+                        <div class="col-md-4 skill-single text-center">
+                            <div class="circle" id="circle-2"><canvas width="100" height="100"></canvas>
+                                <span>90%</span>
+                            </div>
+                            <h6>Front End</h6>
+                        </div>
+                        <div class="col-md-4 skill-single text-center">
+                            <div class="circle" id="circle-3"><canvas width="100" height="100"></canvas>
+                                <span>85%</span>
+                            </div>
+                            <h6>Back End</h6>
+                        </div>
+                    </div>
+                    <!--end skill circle-->
+                    <!--start counter-->
+                    <div class="counter row">
+                        <div class="col-md-4">
+                            <div class="counter-single">
+                                <p>Familiar dengan tools grapich design, seperti corel, adobe, dll.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="counter-single">
+                                <p>Familiar dengan bahasa pemograman dan framework.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="counter-single">
+                                <p>Mampu membuat design template UI / UX dan responsive design.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end counter-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--start portfolio area-->
+    <section id="portfolio-area" data-scroll-index="4">
+        <div class="container">
+            <div class="row">
+                <!--start section heading-->
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                    <div class="section-heading text-center">
+                        <h5>My Portfolios</h5>
+                        <h2>Recently I Have Completed These Projects</h2>
+                    </div>
+                </div>
+                <!--end section heading-->
+            </div>
+            <!--start portfolio wrap-->
+            <div class="portfolio-wrap">
+                <div class="portfolio-carousel owl-carousel">
+                    <!--start portfolio single-->
+                    <div class="portfolio-single row">
+                        <div class="col-lg-7">
+                            <div class="portfolio-img">
+                                <img src="http://themehoster.com/rp/html/rexpo/demo/assets/images/portfolio-1.jpg" class="img-fluid" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="portfolio-details">
+                                <h6>Web App</h6>
+                                <h4>Bhhh2 Trail Run</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                                <ul>
+                                    <li><span>Website Link:</span> bhhh2trailrun.com</li>
+                                    <li><span>Technologies :</span> PHP, Laravel, Bootstrap 3, Jquery.</li>
+                                </ul>
+                                <a href="#">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end portfolio single-->
+                    <!--start portfolio single-->
+                    <div class="portfolio-single row">
+                        <div class="col-lg-7">
+                            <div class="portfolio-img">
+                                <img src="http://themehoster.com/rp/html/rexpo/demo/assets/images/portfolio-2.jpg" class="img-fluid" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="portfolio-details">
+                                <h6>Web Development</h6>
+                                <h4>Nusa Sarana Indonesia (NSI)</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                                <ul>
+                                    <li><span>Website Link:</span> nusasarana.id</li>
+                                    <li><span>Technologies :</span> PHP, Codeigniter, Bootstrap 4, Jquery.</li>
+                                </ul>
+                                <a href="#">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end portfolio single-->
+                    <!--start portfolio single-->
+                    <div class="portfolio-single row">
+                        <div class="col-lg-7">
+                            <div class="portfolio-img">
+                                <img src="http://themehoster.com/rp/html/rexpo/demo/assets/images/portfolio-3.jpg" class="img-fluid" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="portfolio-details">
+                                <h6>Web App</h6>
+                                <h4>Sci Paint</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                                <ul>
+                                    <li><span>Website Link:</span> sci-paint.com</li>
+                                    <li><span>Technologies :</span> PHP, Laravel, Bootstrap 4, Jquery.</li>
+                                </ul>
+                                <a href="#">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end portfolio single-->
+                    <!--start portfolio single-->
+                    <div class="portfolio-single row">
+                        <div class="col-lg-7">
+                            <div class="portfolio-img">
+                                <img src="http://themehoster.com/rp/html/rexpo/demo/assets/images/portfolio-4.jpg" class="img-fluid" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="portfolio-details">
+                                <h6>Graphic Design</h6>
+                                <h4>Attractive Banner Design</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                                <ul>
+                                    <li><span>Completed Date:</span> 10 May 2018</li>
+                                    <li><span>Technologies :</span> PSD, Adobe Photoshop</li>
+                                </ul>
+                                <a href="#">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end portfolio single-->
+                    <!--start portfolio single-->
+                    <div class="portfolio-single row">
+                        <div class="col-lg-7">
+                            <div class="portfolio-img">
+                                <img src="http://themehoster.com/rp/html/rexpo/demo/assets/images/portfolio-5.jpg" class="img-fluid" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="portfolio-details">
+                                <h6>Web Development</h6>
+                                <h4>WordPress Theme Development</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.</p>
+                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                                <ul>
+                                    <li><span>Completed Date:</span> 15 June 2018</li>
+                                    <li><span>Technologies :</span> PHP, WordPress, HTML5</li>
+                                </ul>
+                                <a href="#">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end portfolio single-->
+                </div>
+            </div>
+            <!--end portfolio wrap-->
+        </div>
+    </section>
+    <!--end portfolio area-->
+
+
+	<!--jQuery js-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!--proper js-->
+    <script src="js/popper.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/app.min.js"></script>
+    <!--owl carousel js-->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--animated headline js-->
+    <script src="js/animated-headline.js"></script>
+    <!--counter js-->
+    <script src="js/waypoints.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <!--scrollIt js-->
+    <script src="js/scrollIt.min.js"></script>
+    <!--circle progress js-->
+    <script src="js/circle-progress.min.js"></script>
+    <!--ajax contact js-->
+    <script src="js/contact.js"></script>
+    <!--main js-->
+    <script src="js/custom.js"></script>
 </body>
 </html>
