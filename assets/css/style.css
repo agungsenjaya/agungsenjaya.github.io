@@ -1,0 +1,130 @@
+/* Font Link */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Encode+Sans+Condensed|Encode+Sans+Semi+Expanded');
+/* End Font Link */
+
+@font-face {
+    font-family: 'museosansrounded-100';
+    src: url('../font/museosansrounded-100-webfont.ttf');
+}@font-face {
+    font-family: 'museosansrounded-300';
+    src: url('../font/museosansrounded-300-webfont.ttf');
+}@font-face {
+    font-family: 'museosansrounded-500';
+    src: url('../font/museosansrounded-500-webfont.ttf');
+}@font-face {
+    font-family: 'HelveticaLTStd-Blk';
+    src: url('../font/HelveticaLTStd-Blk.otf');
+}
+body {
+    /* font-family: 'museosansrounded-500'; */
+    font-family: 'Encode Sans Semi Expanded';
+    /* color: #323232; */
+    font-size: 15px;
+}
+h1,h2,h3,h4 {
+	font-family: 'HelveticaLTStd-Blk';
+	text-transform: uppercase;
+}
+.hero {
+	min-height: 100vh;
+	height: 100vh;
+	background: #f1f1ff;
+}
+.bg-gr-1 {
+	/* background-image:linear-gradient(180deg,#464a4d 35%,#00405A 100%); */
+    background-image: linear-gradient(180deg,#3e1678 35%,#49006B 100%)
+}
+.card {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    border: none;
+}
+.border-top-card {
+    border-top: 3px solid #49006B;
+}
+.default {
+    color: #49006B;
+}
+.bg-default {
+    background: #49006B;
+}
+.border-default {
+  border-color: #49006B;
+}
+.bg-light1 {
+    background: #fef9ff !important;
+}
+
+
+/* Timeline */
+.circle {
+  padding: 13px 20px;
+  border-radius: 50%;
+  background-color:#49006B;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+  align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid#49006B;
+  z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid#49006B;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid#49006B;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
+/* End Of Timeline */
